@@ -1,0 +1,18 @@
+@charset "ISO-8859-1";
+
+.text-white {
+	color: #fff;
+}
+.text-center {
+	text-align: center;
+}
+.text-xl {
+	font-size: 3rem;
+}
+
+.flex {
+	display: flex;
+}
+.blur {
+	backdrop-filter: blur(5px);
+}

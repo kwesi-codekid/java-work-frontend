@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #e5e5e5;
+	font-family: Poppins;
+}
+
+.page-wrap {
+	display: flex;
+	gap: 1rem;
+	width: 100vw;
+}
+
+.sidebar {
+	height: 100vh;
+	width: 20%;
+	background: #0b0b45;
+}
+
+.product-list {
+	width: 60%;
+}
+
+.cart {
+	background: #fff;
+	min-height: 100vh;
+	width: 20%;
+}
+
+.categories {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 6px;
+}
+
+.categories p {
+	background: #083aa9;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 30px;
+	white-space: nowrap;
+	font-family: Poppins;
+	font-size: 14px;
+}
+
+/* Sidebar */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+	margin-bottom: 3rem;
+}
+
+.brand img {
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+}
+
+.brand h2 {
+	font-family: Poppins;
+	color: #f3f5f6;
+}
+
+/* nav items */
+.nav-items ul {
+	padding-left: 0;
+	padding-right: 1rem;
+}
+
+.nav-items ul li {
+	list-style: none;
+	border-radius: 0 8px 8px 0;
+	padding-left: 1rem;
+}
+
+.nav-items ul li a {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 10px 20px;
+	padding-left: 0;
+	text-decoration: none;
+	color: #f3f5f6;
+	font-family: Poppins;
+	font-size: 16px;
+	border-radius: 6px;
+}
+
+.nav-items ul li.active {
+	background-color: #083ba9;
+}
+
+.nav-items ul li:hover {
+	background-color: #083aa9;
+	transition: all .3s ease;
+}
+
+/* profile */
+.profile {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 8px 15px;
+	background-color: #083aa9;
+	border-radius: 15px 15px 0 0;
+}
+
+.profile-detail {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+}
+
+.profile-detail img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.profile-detail div p {
+	margin-bottom: 0;
+	color: #e5e5e5;
+	line-height: 10px;
+	font-size: 18px;
+}
+
+.profile-detail div span {
+	font-family: Montserrat;
+	margin: 0;
+	color: #b3b3d3;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.sign-out a button {
+	height: 30px;
+	width: 30px;
+	background-color: transparent;
+	font-size: 20px;
+	border: none;
+	outline: none;
+}

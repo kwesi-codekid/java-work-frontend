@@ -1,0 +1,44 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: #e5e5e5;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	height: 100vh;
+}
+.login {
+	background: #fff;
+	width: 70%;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+}
+.form-group {
+	margin-bottom: 2rem;
+}
+.form-wrap {
+	padding-right: 4rem;
+	padding: 2rem;
+}
+.form-wrap h2 {
+	font-size: 2.5rem;
+	margin-bottom: 2rem;
+}
+.col {
+	width: 50%;
+}
+img {
+	width: 100%;
+}
+@media screen and (max-width: 768px) {
+	.login {
+		width: 96%;
+	}
+	.illustration-wrap {
+		visibility: hidden;
+	}
+}
